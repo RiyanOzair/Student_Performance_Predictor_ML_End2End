@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Predictor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            background: rgba(20,20,20,0.98);
+            padding: 60px 50px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+            max-width: 600px;
+        }
+        .container h1 {
+            font-size: 2.4rem;
+            color: #fff;
+            margin-bottom: 16px;
+        }
+        .container p {
+            font-size: 1.1rem;
+            color: #26c6da;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 40px;
+            background: linear-gradient(135deg, #26c6da 0%, #2196f3 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(38,198,218,0.3);
+            background: linear-gradient(135deg, #2196f3 0%, #26c6da 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Exam Performance Predictor</h1>
+        <p>Predict a student's math score based on demographic and academic factors such as gender, ethnicity, parental education, lunch type, test preparation, and other scores.</p>
+        <a href="/predictdata" class="btn">Start Prediction</a>
+    </div>
+</body>
+</html>
