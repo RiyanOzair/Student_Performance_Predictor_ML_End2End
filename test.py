@@ -1,6 +1,6 @@
 import requests
 
-url = "https://your-app-name.onrender.com/predict_api"
+url = "http://localhost:5000/predict_api"
 
 data = {
  "gender": "male",
